@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MUSLIM APP</string>
+    <string name="cari_produk">Cari Produk</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="nomor_sertifikat">Nomor Sertifikat</string>
+    <string name="produsen">Produsen</string>
+    <string name="berlaku_hingga">Berlaku Hingga</string>
+    <string name="nama">Wahyudin</string>
+    <string name="note">“Everybody in this country should learn to program a computer, because it teaches you how to think.”  ~ Steve Jobs ~</string>
+</resources>

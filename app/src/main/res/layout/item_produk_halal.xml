@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#1B2927"
+            android:text="@string/nama_produk"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_marginStart="27dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/nomor_sertifikat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1B2927"/>
+
+        <TextView
+            android:id="@+id/tv_no_sertifikat"
+            android:layout_marginStart="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/produsen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1B2927"/>
+
+        <TextView
+            android:id="@+id/tv_produsen"
+            android:layout_marginStart="52dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="52dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/berlaku_hingga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1B2927"/>
+
+        <TextView
+            android:id="@+id/tv_berlaku"
+            android:layout_marginStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
